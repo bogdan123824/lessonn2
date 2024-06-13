@@ -1,0 +1,277 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+h1{
+  font-size: 1.5em;
+  margin-bottom: 20px ;
+}
+.container{
+  margin-bottom: 15px;
+  text-align: center;
+}
+label{
+  display: block;
+  margin-bottom: 5px;
+}
+input{
+  width: 360px;
+  padding: 10px;
+  margin-bottom: 5px;
+
+}
+button{
+  padding: 10px 15px;
+  font-size: 15px;
+  color: gray;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+button:hover{
+  background-color: wheat;
+}
+p{
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+.card-schwepps{
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.schwepps-product{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.details span{
+  margin-right: 5px ;
+}
+.price-card{
+  margin-top: 10px;
+  margin-right: 250px;
+  align-items: baseline;
+}
+
+.old-price{
+  color: gray;
+  margin-right: 10px;
+  text-decoration: line-through;
+}
+.discount-price{
+  background-color: red;
+  border-radius: 8px ;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px ;
+}
+.new-price{
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+}
+.buy{
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 130px;
+  margin-right: 300px;
+}
+.buy:hover{
+  background-color: wheat;
+}
+.card{
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 800px;
+}
+.image img {
+  width: 400px;
+  height: 100%;
+}
+.details{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.title h2{
+  margin-top: -25px;
+  margin-right: 270px;
+  width: 200px;
+  font-size: 20px;
+  color: #282c34;
+}
+.title p {
+  margin: 5px 0;
+  width: 350px;
+  margin-left: 30px;
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.price h3{
+  margin-top: 5px;
+  font-size: 22px;
+  color: green;
+  width: 500px;
+  display: inline-block;
+}
+.price p{
+  display: inline-block;
+  margin: 5px 0;
+  margin-right: 180px;
+  font-size: 15px;
+  color: black;
+}
+.info{
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  margin-top: -15px; 
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+.info li{
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.info li img{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.info p{
+  margin: 0;
+  font-size: 15px;
+  color: black;
+}
+.VIN p{
+  margin: 5px 0;
+  font-size: 17px;
+  color: black;
+  width: 500px;
+  margin-right: 60px;
+  margin-top: 15px;
+}
+.text{
+  width: 200px;
+  margin-top: -8px;
+  margin-left: -15px;
+  color: black;
+}
+.button-car{
+  width: 200px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid rgb(15, 15, 54);
+  margin-right: 175px;
+  margin-top: -5px;
+}
+.imgBtn{
+  margin-right: 1px;
+  margin-bottom: -7px;
+  height: 25px;
+  width: 25px;
+}
+.time {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.time li {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin-left: 35px;
+}
+.time li p {
+  margin: 0;
+  font-size: 15px;
+  color: green;
+  margin-left: 5px;
+}
+
+.time .icons {
+  display: flex;
+  margin-left: 230px; 
+}
+
+.time .icons img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.time .icons img:last-child {
+  margin-right: 0; 
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transfrom 0.5s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  animation: contDown 1.5s ease-in-out;
+}
+
+.down {
+  transform: translateY(0px);
+}
+
+.App-link {
+  color: #61dafb;
+}
+.App-logo:hover{
+  transform: rotate(360);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes contDown {
+  from{
+    transform: translateY(0px);
+  }to{
+    transform: translateY(250px);
+  }
+}
